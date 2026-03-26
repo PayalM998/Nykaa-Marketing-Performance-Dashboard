@@ -111,7 +111,7 @@ Through Rate = DIVIDE(SUM(Data[Clicks]), SUM(Data[Impressions]), 0) * 100
 ## 📁 Project Files
 
 * NYKAA Performance Dashboard.pbix
-* Dataset (Excel/CSV)
+* Dataset (Excel/CSV) 
 * Dashboard Screenshot
 * <img width="835" height="493" alt="image" src="https://github.com/user-attachments/assets/701685cb-0489-446f-9d89-6db52afc486f" />
 
