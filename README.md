@@ -68,11 +68,8 @@ Total Conversions = SUM(Data[Conversions])
 
 Avg ROI = DIVIDE([Total Profit], [Total Cost], 0) * 100
 
-Through Rate = 
-DIVIDE(
-    SUM('Nykaa Dataset'[Clicks]),
-    SUM('Nykaa Dataset'[Impressions]),
-    0)```
+CTR = DIVIDE(SUM(Data[Clicks]), SUM(Data[Impressions]), 0) * 100
+```
 
 ---
 
@@ -93,7 +90,38 @@ DIVIDE(
 * Data Visualization
 * Data Cleaning
 * Excel / CSV Dataset
-Screenshots / Demo
-Dashboard Overview
-<img width="835" height="493" alt="image" src="https://github.com/user-attachments/assets/e6b59176-0ce6-4baf-9186-df7e67d810dc" />
 
+---
+
+## 📷 Dashboard Preview
+
+(Add dashboard screenshot here)
+
+---
+
+## 🚀 How to Use This Project
+
+1. Download the `.pbix` file from this repository.
+2. Open the file in Power BI Desktop.
+3. Explore the dashboard using slicers and filters.
+4. Review DAX measures and visualizations used in the report.
+
+---
+
+## 📁 Project Files
+
+* NYKAA Performance Dashboard.pbix
+* Dataset (Excel/CSV)
+* Dashboard Screenshot
+* <img width="835" height="493" alt="image" src="https://github.com/user-attachments/assets/701685cb-0489-446f-9d89-6db52afc486f" />
+
+* README.md
+
+---
+
+## 👩‍💻 Author
+
+**Payal Mitra**
+Aspiring Data Analyst | Power BI | SQL | Python
+
+This project is part of my Data Analytics Portfolio.
