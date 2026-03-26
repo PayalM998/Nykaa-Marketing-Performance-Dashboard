@@ -68,7 +68,7 @@ Total Conversions = SUM(Data[Conversions])
 
 Avg ROI = DIVIDE([Total Profit], [Total Cost], 0) * 100
 
-CTR = DIVIDE(SUM(Data[Clicks]), SUM(Data[Impressions]), 0) * 100
+Through Rate = DIVIDE(SUM(Data[Clicks]), SUM(Data[Impressions]), 0) * 100
 ```
 
 ---
