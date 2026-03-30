@@ -58,17 +58,17 @@ The Power BI dashboard includes the following visualizations:
 The following DAX measures were created in this project:
 
 ```DAX
-Total Revenue = SUM(Data[Revenue])
+Total Revenue = SUM('Nykaa Dataset'[Revenue])
 
-Total Cost = SUM(Data[Cost])
+Total Cost = SUM('Nykaa Dataset'[Cost])
 
 Total Profit = [Total Revenue] - [Total Cost]
 
-Total Conversions = SUM(Data[Conversions])
+Total Conversions = SUM('Nykaa Dataset'[Conversions])
 
 Avg ROI = DIVIDE([Total Profit], [Total Cost], 0) * 100
 
-Through Rate = DIVIDE(SUM(Data[Clicks]), SUM(Data[Impressions]), 0) * 100
+Through Rate = DIVIDE(SUM('Nykaa Dataset'[Clicks]), SUM('Nykaa Dataset'[Impressions]), 0) * 100
 ```
 
 ---
